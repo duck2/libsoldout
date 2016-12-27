@@ -8,7 +8,7 @@ LDFLAGS=
 all: mkd2html
 
 mkd2html: *.c
-	$(CC) $^ $(CFLAGS) $(LDFLAGS) -o mkd2html
+	$(CC) *.c $(CFLAGS) $(LDFLAGS) -o mkd2html
 
 install: all
 	@echo installing executable to ${PREFIX}/bin
