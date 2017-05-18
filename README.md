@@ -1,4 +1,4 @@
-# libduck2/libsoldout
+# duck2/libsoldout
 
 This fork is a "make and go" version of Natacha Porté's Markdown parser [libsoldout][0]. Most of the documentation, LaTeX and nroff renderers and orbweaver-y build system is removed.
 
